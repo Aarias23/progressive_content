@@ -112,5 +112,15 @@ td {
         .card-title {
             font-size: 12px;
         }
+
+        .rule {
+            font-size: 12px;
+        }
+
+        .negative {
+            color: black;
+            font-weight: bold;
+            font-size: 10px;
+        }
     }
 }
