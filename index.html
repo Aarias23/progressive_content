@@ -1,283 +1,236 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>present Continuous</title>
-
-    <!--===============GOOGLE FONT==================-->
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap"
-      rel="stylesheet"
-    />
-
-    <!--===============BOOTSTRAP===================-->
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     />
 
-    <!--===============FONTAWESOME=================-->
+    <!-- <link href="https://getbootstrap.com/docs/4.5/examples/carousel/carousel.css" rel="stylesheet"> -->
 
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
-    />
-
-    <!--===============CSS STYLESHEET===============-->
-
-    <link rel="stylesheet" href="css/styles.css" />
-
-    <!--===============JQUERY SCRIPTS===============-->
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <section class="colored-section" id="title">
-      <div class="container-fluid">
-        <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <a class="navbar-brand" href="">Tindog</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#footer">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#pricing">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#cta">Download</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-
-        <!-- Title -->
-
-        <div class="row">
-          <div class="col-lg-6">
-            <h1 class="big-heading">Meet new and interesting dogs nearby.</h1>
-            <button class="btn btn-dark btn-lg download-button" type="button">
-              <i class="fab fa-apple"></i> Download
-            </button>
-            <button
-              class="btn btn-outline-light btn-lg download-button"
-              type="button"
-            >
-              <i class="fab fa-google-play"></i> Download
-            </button>
-          </div>
-
-          <div class="col-lg-6">
-            <img
-              class="title-image"
-              src="images/iphone6.png"
-              alt="iphone-mockup"
-            />
+    <div class="jumbotron-fluid container">
+      <div class="container">
+        <h1 class="display-4">Módulo 3. Present Continuous</h1>
+        <p class="main-text">
+          En este recurso estudiaremos el presente progresivo y su estructura gramatical. Te invito a que veas el video y leas las notas gramaticales de este recurso para que tengas una mejor comprensión del tema. Recuerda ver el vídeo la veces que sea necesario. 
+        </p>
+        <div id="container">
+          <div class="btn btn-outline-dark ">
+            eTeacher: Alexis A. Arias
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- Features -->
-
-    <section class="white-section" id="features">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="feature-box col-lg-4">
-            <!-- fa-4x increases the size of the icon -->
-            <i class="icon fas fa-check-circle fa-4x"></i>
-            <h3 class="feature-title">Easy to use.</h3>
-            <p>So easy to use, even your dog could do it.</p>
-          </div>
-
-          <div class="feature-box col-lg-4">
-            <i class="icon fas fa-bullseye fa-4x"></i>
-            <h3 class="feature-title">Elite Clientele</h3>
-            <p>We have all the dogs, the greatest dogs.</p>
-          </div>
-
-          <div class="feature-box col-lg-4">
-            <i class="icon fas fa-heart fa-4x"></i>
-            <h3 class="feature-title">Guaranteed to work.</h3>
-            <p>Find the love of your dog's life or your money back.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Testimonials -->
-
-    <section class="colored-section" id="testimonials">
-      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
-        <div class="carousel-inner">
-          <div class="carousel-item active container-fluid">
-            <h2 class="testimonial-text">
-              I no longer have to sniff other dogs for love. I've found the
-              hottest Corgi on TinDog. Woof.
-            </h2>
-            <img
-              class="testimonial-image"
-              src="images/dog-img.jpg"
-              alt="dog-profile"
-            />
-            <em>Pebbles, New York</em>
-          </div>
-          <div class="carousel-item container-fluid">
-            <h2 class="testimonial-text">
-              My dog used to be so lonely, but with TinDog's help, they've found
-              the love of their life. I think.
-            </h2>
-            <img
-              class="testimonial-image"
-              src="images/lady-img.jpg"
-              alt="lady-profile"
-            />
-            <em>Beverly, Illinois</em>
-          </div>
-        </div>
-        <a
-          class="carousel-control-prev"
-          href="#testimonial-carousel"
-          role="button"
-          data-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a
-          class="carousel-control-next"
-          href="#testimonial-carousel"
-          role="button"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </section>
-
-    <!-- Press -->
-
-    <section class="colored-section" id="press">
-      <img class="press-logo" src="images/techcrunch.png" alt="tc-logo" />
-      <img class="press-logo" src="images/tnw.png" alt="tnw-logo" />
-      <img
-        class="press-logo"
-        src="images/bizinsider.png"
-        alt="biz-insider-logo"
-      />
-      <img class="press-logo" src="images/mashable.png" alt="mashable-logo" />
-    </section>
-
-    <!-- Pricing -->
-
-    <section class="white-section" id="pricing">
-      <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
-      <p>Simple and affordable price plans for your and your dog.</p>
-
+    </div>
+    <br />
+    <!-- youtube video -->
+    <div class="container">
       <div class="row">
-        <div class="pricing-column col-lg-4 col-md-6">
-          <div class="card">
-            <div class="card-header">
-              <h3>Chihuahua</h3>
-            </div>
-            <div class="card-body">
-              <h2 class="price-text">Free</h2>
-              <p>5 Matches Per Day</p>
-              <p>10 Messages Per Day</p>
-              <p>Unlimited App Usage</p>
-              <button
-                class="btn btn-lg btn-block btn-outline-dark"
-                type="button"
-              >
-                Sign Up
-              </button>
-            </div>
+        <div class="col-lg-12 col-md-12">
+          <div class="container text-center">
+          <iframe
+            class="embed-responsive-item"
+            width="100%"
+            height="400"
+            src="https://www.youtube.com/embed/a2rCItncHeM?start=1"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope;picture-in-picture"
+            allowfullscreen
+          ></iframe>
           </div>
-        </div>
-        <div class="pricing-column col-lg-4 col-md-6">
-          <div class="card">
-            <div class="card-header">
-              <h3>Labrador</h3>
-            </div>
-            <div class="card-body">
-              <h2 class="price-text">$49 / mo</h2>
-              <p>Unlimited Matches</p>
-              <p>Unlimited Messages</p>
-              <p>Unlimited App Usage</p>
-              <button class="btn btn-lg btn-block btn-dark" type="button">
-                Sign Up
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="pricing-column col-lg-4 col-md-12">
-          <div class="card">
-            <div class="card-header">
-              <h3>Mastiff</h3>
-            </div>
-            <div class="card-body">
-              <h2 class="price-text">$99 / mo</h2>
-              <p>Pirority Listing</p>
-              <p>Unlimited Matches</p>
-              <p>Unlimited Messages</p>
-              <p>Unlimited App Usage</p>
-              <button class="btn btn-lg btn-block btn-dark" type="button">
-                Sign Up
-              </button>
-            </div>
-          </div>
+          <h6 class="card-title text-center lead">
+            Present continuous | Affirmative | Negative | Interrogative 
+          </h6>
         </div>
       </div>
-    </section>
-
-    <!-- Call to Action -->
-
-    <section class="colored-section" id="cta">
-      <div class="container-fluid">
-        <h3 class="big-heading">
-          Find the True Love of Your Dog's Life Today.
-        </h3>
-        <button class="btn btn-dark btn-lg download-button" type="button">
-          <i class="fab fa-apple"></i> Download
-        </button>
-        <button
-          class="btn btn-outline-light btn-lg download-button"
-          type="button"
-        >
-          <i class="fab fa-google-play"></i> Download
-        </button>
-      </div>
-    </section>
-
-    <!-- Footer -->
-
-    <footer class="white-section" id="footer">
-      <div class="container-fluid">
-        <i class="social-icons fab fa-twitter"></i>
-        <i class="social-icons fab fa-facebook-f"></i>
-        <i class="social-icons fab fa-instagram"></i>
-        <i class="social-icons fas fa-envelope"></i>
-        <p class="copyright">© Copyright 2018 TinDog</p>
-      </div>
-    </footer>
+      <br>
+      <h1 class="chart">Structure of Present Continuous Tense</h1>
+     <!--  <div class="jumbotron"> -->
+       <br>
+        <div class="row">
+          <!-- first chart -->
+          <div class="col-lg-6 col-md-12">
+            <h1>Positive Form</h1>
+            <table class="table">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Subject</th>
+                  <th scope="col">Be</th>
+                  <th scope="col">Verb + Ing</th>
+                  <th scope="col">complement</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>I</td>
+                  <td>am</td>
+                  <td>watching</td>
+                  <td>television</td>
+                </tr>
+                <tr>
+                  <td>You</td>
+                  <td>are</td>
+                  <td>watching</td>
+                  <td>television</td>
+                </tr>
+                <tr>
+                  <td>He</td>
+                  <td>is</td>
+                  <td>watching</td>
+                  <td>television</td>
+                </tr>
+                <tr>
+                  <td>She</td>
+                  <td>is</td>
+                  <td>watching</td>
+                  <td>television</td>
+                </tr>
+                <tr>
+                  <td>It</td>
+                  <td>is</td>
+                  <td>watching</td>
+                  <td>television</td>
+                </tr>
+                <tr>
+                  <td>We</td>
+                  <td>are</td>
+                  <td>watching</td>
+                  <td>television</td>
+                </tr>
+                <tr>
+                  <td>They</td>
+                  <td>are</td>
+                  <td>watching</td>
+                  <td>television</td>
+                </tr>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- Second chart begins here -->
+          <div class="col-lg-6 col-md-12">
+            <h1 class="grammar">Negative Form</h1>
+            <table class="table">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Subject</th>
+                  <th scope="col">Be + not</th>
+                  <th scope="col">Verb + Ing</th>
+                  <th scope="col">complement</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>I</td>
+                  <td>am not</td>
+                  <td>watching</td>
+                  <td>television</td>
+                </tr>
+                <tr>
+                  <td>You</td>
+                  <td>are not</td>
+                  <td>watching</td>
+                  <td>television</td>
+                </tr>
+                <tr>
+                  <td>He</td>
+                  <td>is not</td>
+                  <td>watching</td>
+                  <td>television</td>
+                </tr>
+                <tr>
+                  <td>She</td>
+                  <td>is not</td>
+                  <td>watching</td>
+                  <td>television</td>
+                </tr>
+                <tr>
+                  <td>It</td>
+                  <td>is not</td>
+                  <td>watching</td>
+                  <td>television</td>
+                </tr>
+                <tr>
+                  <td>We</td>
+                  <td>are not</td>
+                  <td>watching</td>
+                  <td>television</td>
+                </tr>
+                <tr>
+                  <td>They</td>
+                  <td>are not</td>
+                  <td>watching</td>
+                  <td>television</td>
+                </tr>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- Third chart begins here -->
+          <div class="col-lg-12 col-md-12">
+            <h1 class="grammar">Question Form</h1>
+            <table class="table">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Be</th>
+                  <th scope="col">Subject</th>
+                  <th scope="col">Verb + Ing</th>
+                  <th scope="col">complement</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Am</td>
+                  <td>I</td>
+                  <td>watching</td>
+                  <td>television?</td>
+                </tr>
+                <tr>
+                  <td>Are</td>
+                  <td>you</td>
+                  <td>watching</td>
+                  <td>television?</td>
+                </tr>
+                <tr>
+                  <td>Is</td>
+                  <td>he</td>
+                  <td>watching</td>
+                  <td>television?</td>
+                </tr>
+                <tr>
+                  <td>Is</td>
+                  <td>she</td>
+                  <td>watching</td>
+                  <td>television?</td>
+                </tr>
+                <tr>
+                  <td>Is</td>
+                  <td>it</td>
+                  <td>watching</td>
+                  <td>television</td>
+                </tr>
+                <tr>
+                  <td>Are</td>
+                  <td>we</td>
+                  <td>watching</td>
+                  <td>television?</td>
+                </tr>
+                <tr>
+                  <td>Are</td>
+                  <td>they</td>
+                  <td>watching</td>
+                  <td>television?</td>
+                </tr>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>   
+    </div>
   </body>
 </html>
