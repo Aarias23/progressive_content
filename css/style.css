@@ -12,7 +12,7 @@ h1 {
 }
 
 .jumbotron-fluid.container {
-    background: darkblue;
+    background: #00004c;
     border-radius: 20px;
 }
 
@@ -53,7 +53,7 @@ p.main-text {
 
 .table .thead-dark th {
     color: #fff;
-    background-color: darkblue;
+    background-color: #00004c;
     border: 1px solid black;
     text-align: center;
 }
