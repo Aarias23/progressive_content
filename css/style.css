@@ -63,6 +63,10 @@ td {
     border: 1px solid black;
 }
 
+.rule {
+    text-align: center;
+}
+
 @media screen and (max-width: 768px) {
     .card-title {
         font-size: 20px;
@@ -71,7 +75,6 @@ td {
     .embed-responsive-item {
         height: 300px;
     }
-
 
     .display-4 {
         font-size: 30px;
@@ -94,10 +97,13 @@ td {
             font-size: 18px;
         }
 
+        .ing_form {
+            font-size: 10px;
+        }
+
         .embed-responsive-item {
             height: 300px;
         }
-
 
         .chart {
             font-size: 14x;
